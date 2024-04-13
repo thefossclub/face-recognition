@@ -89,6 +89,7 @@ void recognizeFaces(const vector<Mat>& knownFaceImages, const vector<string>& kn
                         FONT_HERSHEY_SIMPLEX, 0.5, Scalar(255, 255, 255), 1);
             }
         }
+        // a text
 
         imshow("Face Recognition", frame);
 
